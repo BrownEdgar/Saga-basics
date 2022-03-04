@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
 		  <h1>React Saga</h1>
+		  <button onClick={() => dispatch({type: "CLICK"})}>Click</button>
     </div>
   );
 }
